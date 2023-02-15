@@ -1,0 +1,110 @@
+/*ABOUT-COMPANY / CONTACTS*/
+.index-columns {
+  width: 1160px;
+  margin: 0 auto;
+  padding-bottom: 80px;
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 40px;
+}
+
+.about-company {
+  width: 560px;
+}
+
+.about-company__title {
+  margin: 0;
+  padding-top: 40px;
+  padding-bottom: 48px;
+  font-family: Raleway, sans-serif;
+  color: #000000;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.index-columns__title {
+  position: relative;
+}
+
+.index-columns__title::before {
+  content: '';
+  display: block;
+  width: 84px;
+  height: 8px;
+  background: #000000;
+  position: absolute;
+  left: 0;
+  top: -8px;
+}
+
+.transport__item {
+  color: #000000;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.contacts {
+  width: 560px;
+}
+
+.contacts__title {
+  padding-top: 40px;
+  padding-bottom: 48px;
+  margin: 0;
+  font-family: Raleway, sans-serif;
+  color: #000000;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.contacts__subtitle {
+  margin-bottom: 15px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.contacts__address__text {
+  margin: 0;
+}
+
+.contacts__address {
+  color: #444444;
+  font-style: normal;
+}
+
+.contacts__phone {
+  color: #444444;
+  display: block;
+}
+
+.contacts__text {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.contacts-schedule {
+  margin-bottom: 40px;
+}
+
+.about-company__text {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.cargo__list {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  color: #000000;
+  font-weight: 700;
+  list-style-type: circle;
+}
+
+.cargo__item {
+  padding-bottom: 19px;
+}
+
+.cargo__item:last-child {
+  padding-bottom: 0;
+}

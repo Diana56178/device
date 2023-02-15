@@ -1,0 +1,42 @@
+
+.sorting__container {
+  width: 840px;
+  height: 70px;
+  padding: 25.5px 40px;
+  box-sizing: border-box;
+  border: solid 2px #F0F0F0;
+  background-color: #F0F0F0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.select-control {
+  width: 150px;
+}
+
+.select-control {
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 30px;
+  background-color: #F0F0F0;
+  border: none;
+  cursor: pointer;
+}
+
+.sorting__button {
+  width: 25px;
+  height: 25px;
+  box-sizing: border-box;
+  border: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.sorting__button--up {
+  background-image: url('/img/up.svg');
+}
+.sorting__button--down {
+  background-image: url('/img/down.svg');
+}

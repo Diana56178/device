@@ -1,0 +1,136 @@
+/*ADVANTAGES*/
+
+.advantages {
+  background-color: #F0F0F0;
+  margin-bottom: 70px;
+}
+
+.advantages__container {
+  display: grid;
+  grid-template-columns: 280px 800px;
+  column-gap: 80px;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+.advantages__title {
+  max-width: 250px;
+  margin-top: 0;
+  margin-bottom: 34px;
+  font-family: Raleway, sans-serif;
+  color: #000000;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.advantages__text {
+  max-width: 550px;
+}
+
+.advantages__list {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.advantages__item {
+  box-sizing: border-box;
+  width: 800px;
+  padding: 15px;
+  background-repeat: no-repeat;
+  background-position: 570px center;
+}
+
+.advantages__toggles {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  align-self: center;
+}
+
+.advantages__toggle {
+  display: block;
+  width: 280px;
+  margin-bottom: 45px;
+  border: none;
+}
+
+.advantages__toggle {
+  display: block;
+  margin-bottom: 45px;
+  background-image: linear-gradient(#F0F0F0 35%, #FFE17F 25% 60%, #F0F0F0 33%);
+}
+
+.advantages__toggle--current {
+  background-image: none;
+  background-color: #000000;
+  color: #FFE17F;
+}
+
+.advantages__item--delivery {
+  background-image: url("/img/delivery.svg");
+}
+
+.advantages__item--guarantee {
+  background-image: url("/img/guarantee.svg");
+}
+
+.advantages__item--credit {
+  background-image: url("/img/credit.svg");
+}
+
+.order {
+  background-color: #F0F0F0;
+  width: 1160px;
+  min-height: 100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 125px 1fr 125px;
+  align-items: center;
+}
+
+.order__title {
+  font-family: Raleway, sans-serif;
+  color: #000000;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.order__pic {
+  width: 125px;
+  height: 100px;
+  background-color: #FFE17F;
+  background-image: url("/img/cargo.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.order__icon {
+  position: relative;
+  width: 125px;
+  height: 100px;
+  background-color: #F0F0F0;
+}
+
+.order__button {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(220, 220, 220, 0.5);
+  border: none;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.order__button:hover {
+  outline: #AF4FFF solid 2px;
+}
+

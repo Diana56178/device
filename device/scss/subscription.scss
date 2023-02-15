@@ -1,0 +1,72 @@
+
+/*subscription*/
+
+.subscription {
+  background-color: #F0F0F0;
+}
+
+.subscription__title {
+  margin: 0;
+  padding-top: 64px;
+  font-family: Raleway, sans-serif;
+  color: #000000;
+  font-size: 50px;
+  line-height: 50px;
+  width: 560px;
+}
+
+.subscription__desc {
+  margin: 0;
+  padding-top: 74px;
+  width: 560px;
+}
+
+.subscription__note {
+  width: 180px;
+  margin-left: auto;
+  padding-left: 30px;
+  line-height: 30px;
+}
+
+.subscription__note::before {
+  content: "";
+  display: inline-flex;
+  margin-right: 16px;
+  background-image: url("/img/tick.svg");
+  width: 14px;
+  height: 14px;
+}
+
+.subscription__text {
+  margin-bottom: 150px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 40px;
+}
+
+.subscription__form {
+  display: grid;
+  grid-template-columns: 557px 200px;
+  width: 757px;
+  box-sizing: border-box;
+}
+
+.subscription__container {
+  padding-bottom: 56px;
+  display: flex;
+  width: 1160px;
+}
+
+.subscription__field {
+  padding: 11px 13px;
+  font: inherit;
+  line-height: 30px;
+  background-color: #F0F0F0;
+  border: none;
+  border-bottom: solid 3px #C4C4C4;
+}
+
+.subscription__button {
+  background-image: none;
+  border: solid 3px #C4C4C4;
+}

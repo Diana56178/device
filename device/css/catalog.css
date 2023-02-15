@@ -1,0 +1,10 @@
+.catalog-products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1160px;
+}
+
+.catalog-right-column {
+  width: 840px;
+}

@@ -1,0 +1,67 @@
+.pagination__nav {
+  padding-bottom: 78px;
+}
+
+.pagination__list {
+  width: 760px;
+  min-height: 71px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  background-color: #F0F0F0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+}
+
+.pagination__button {
+  margin: 0 auto;
+  background: #FFFFFF;
+  display: block;
+  margin-bottom: 45px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 760px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: solid 3px #F0F0F0;
+}
+
+.pagination__link {
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  min-width: 44px;
+  min-height: 44px;
+  padding: 12px 20px;
+  color: #444444;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-decoration: none;
+  background-image: none;
+}
+
+.pagination-prev, .pagination-next {
+  color: #000000;
+}
+
+.pagination__link:hover {
+  text-shadow: #123 3px 5px 4px;
+}
+
+.pagination__link:active {
+  color: azure;
+  text-shadow: #123 1px 3px 2px;
+}
